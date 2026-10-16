@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/pong.svg</file>
+        <file>icons/Logo-Racoon.png</file>
+    </qresource>
+</RCC>

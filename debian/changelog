@@ -1,3 +1,19 @@
+pong (0.3-1) unstable; urgency=medium
+
+  * Modo de 1 jugador contra la CPU (menu), se recuerda entre sesiones.
+  * La partida termina al llegar a 11 puntos, con pantalla de ganador.
+  * La pelota se dibujaba desplazada respecto a su zona de colision.
+  * La ventana cortaba el campo de juego por no contar la barra de
+    titulo.
+  * El teclado no respondia hasta hacer clic en el campo.
+  * La pelota acelera en cada golpe y el angulo depende de donde golpea.
+  * Pausa con P/Esc, automatica al perder el foco; saque hacia quien
+    perdio el punto.
+  * Saque aleatorio real (std::rand sin semilla) y Ctrl+N/Ctrl+Q sin
+    abrir el menu.
+
+ -- Deepin en Español <developers@deepinenespanol.org>  Wed, 04 Nov 2026 18:00:00 +0000
+
 pong (0.2-1) unstable; urgency=medium
 
   * New version 0.2.

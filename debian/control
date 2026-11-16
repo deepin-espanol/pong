@@ -1,7 +1,7 @@
 Source: pong
 Section: games
 Priority: optional
-Maintainer: Deepin en Español <developers@deepinenespanol.org>
+Maintainer: Alvaro Samudio <alvarosamudio@protonmail.com>
 Build-Depends: debhelper-compat (= 13),
                cmake,
                qt6-base-dev,
@@ -14,7 +14,7 @@ Rules-Requires-Root: no
 
 Package: pong
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, hicolor-icon-theme
 Description: Classic Pong game for Deepin desktop
  A classic Pong implementation built with Qt6 and DTK6,
  featuring two-player action and full
